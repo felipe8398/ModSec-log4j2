@@ -1,0 +1,13 @@
+version: '3'
+services:
+   waf:
+     image: felipe8398/redirector:latest     
+     ports:
+     - "80:80"
+
+   app:
+      depends_on:
+      - waf
+      image: ghcr.io/christophetd/log4shell-vulnerable-app:latest
+      ports:
+      - "8080:8080"
