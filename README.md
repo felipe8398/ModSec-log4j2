@@ -4,7 +4,7 @@
 - Ter docker instalado
 - Ter Java instalado na sua máquina
 
-### Executando a bagaça ###
+### Executando o teste ###
 - Realizar o git clone do repositorio
 - Executar o comando abaixo para subir o WAF (ModSec) e a aplicação vulneravel
 ```sh 
