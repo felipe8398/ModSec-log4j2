@@ -28,7 +28,7 @@ Execute ```docker service ls``` , e verifique se tem dois serviços cada um com 
 
 2- Como pegar log do modsec?
 
-Execute "docker exec -ti $(docker container ls | grep "felipe8398/redirector:latest"| awk '{print $1}') cat /var/log/apache2/error.log"
+Execute ```docker exec -ti $(docker container ls | grep "felipe8398/redirector:latest"| awk '{print $1}') cat /var/log/apache2/error.log```
 
 3- Como verificar se o RCE não deu certo?
 
